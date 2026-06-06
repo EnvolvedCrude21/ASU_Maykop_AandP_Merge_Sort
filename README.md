@@ -51,7 +51,7 @@
 
 Кроме учебных задач, команда развивает собственный проект:
 
-- сайт/проект `nextgen-slicer`: [[DanK1-PRO/nextgen-slicer](https://github.com/DanK1-PRO/nextgen-slicer.git)](https://github.com/BallsTeamOff/NextGen-Slicer-website.git)
+- сайт/проект `nextgen-slicer`: [DanK1-PRO/nextgen-slicer], [(https://github.com/BallsTeamOff/NextGen-Slicer-website.git)]
 
 ## Сборка
 
