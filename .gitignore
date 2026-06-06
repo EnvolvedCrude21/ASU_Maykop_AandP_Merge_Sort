@@ -1,0 +1,11 @@
+build/
+cmake-build*/
+Benchmark/build/
+BasicUT/build/
+Homework_1_Benchmark/build/
+Homework_2_BasicUT/build/
+benchmark_results.csv
+benchmark_test_results.csv
+*.obj
+*.o
+*.pdb
