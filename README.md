@@ -383,7 +383,7 @@ cl /std:c++20 /O2 /EHsc merge_sort_visualizer.cpp /I[path_to_sfml_include] /link
 Запуск бенчмарка для измерения производительности:
 
 ```bash
-./benchmark
+./merge_sort
 ```
 
 Вывод:
@@ -405,7 +405,7 @@ Our sort: 88.0237 ms [OK]
 ### Использование в коде
 
 ```cpp
-#include "parallel_merge_sort.hpp"
+#include "merge_sort.hpp"
 
 int main() {
     std::vector<int> data = {5, 2, 8, 1, 9, 3};
@@ -491,11 +491,11 @@ int main() {
 
 ```
 .
-├── parallel_merge_sort.cpp       # Бенчмарк с тремя сценариями
-├── parallel_merge_sort.hpp       # Заголовочный файл с классом
-├── merge_sort_visualizer.cpp     # Визуализатор на SFML
+├── merge_sort.cpp       # Бенчмарк с тремя сценариями
+├── merge_sort.hpp       # Заголовочный файл с классом
+├── visualizer.cpp     # Визуализатор на SFML
 ├── README.md                     # Документация
-└── LICENSE                       # Лицензия MIT
+
 ```
 
 ---
